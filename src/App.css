@@ -1,0 +1,37 @@
+.wrapper {
+	display: flex;
+}
+
+.buttonChanger {
+	border: none;
+	padding: 0.5rem 1rem;
+	border-radius: 2px;
+	transition: background-color 0.3s, color 0.3s;
+}
+
+.buttonChanger:hover {
+	background-color: #000;
+	color: #fff;
+}
+
+.active,
+.unActive {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	width: 400px;
+	height: 400px;
+}
+
+.active {
+	background-color: #c60000;
+}
+
+.unActive {
+	background-color: #797979;
+}
+
+.textChanging {
+	margin-bottom: 2rem;
+}
